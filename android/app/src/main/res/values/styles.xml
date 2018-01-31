@@ -1,0 +1,132 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Common layouts: -->
+    <style name="Layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Layout.Full">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Layout.Horizontal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Layout.Horizontal.Full">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="Layout.Toolbar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:editTextColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+    </style>
+
+    <style name="Layout.Toolbar.Grey">
+        <!-- Grey icons -->
+        <item name="colorControlNormal">@color/gray_4</item>
+    </style>
+
+    <style name="Layout.Cards">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:paddingBottom">@dimen/card_margin</item>
+    </style>
+
+    <style name="Layout.Card">
+        <item name="android:layout_marginLeft">@dimen/card_margin</item>
+        <item name="android:layout_marginStart" tools:targetApi="jelly_bean_mr1">
+            @dimen/card_margin
+        </item>
+        <item name="android:layout_marginRight">@dimen/card_margin</item>
+        <item name="android:layout_marginEnd" tools:targetApi="jelly_bean_mr1">@dimen/card_margin
+        </item>
+        <item name="android:layout_marginBottom">@dimen/card_margin_bottom</item>
+        <item name="cardPreventCornerOverlap">false</item>
+    </style>
+
+    <style name="Layout.Scroll">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Layout.Coordinator">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Layout.FillConstraint">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="Layout.Recycler">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="layoutManager">android.support.v7.widget.LinearLayoutManager</item>
+    </style>
+
+    <style name="Layout.Guideline">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Separator">
+        <item name="android:background">@color/gray_2</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+    <style name="Image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:importantForAccessibility">no</item>
+    </style>
+
+    <style name="AppBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextView.Centered">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextView.CardTitle">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="TextView.GeneralText">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="ProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:layout_height">76dp</item>
+        <item name="android:layout_width">76dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="ConstraintGroup">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+</resources>
